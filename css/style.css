@@ -1,1 +1,43 @@
-/* Enter your Styles below! */
+body 
+	{ background-color: #D3AC5D; }
+
+header 
+	{ 
+		height: 100vh; 
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+
+a { text-decoration: none; }
+
+
+a:hover { color: blue; }
+
+
+nav ul
+	{ list-style-type: none; 
+		min-height: 100px;
+		min-width: 500px; }
+
+
+nav li
+	{ 
+	margin-right: : 40px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	padding: ;
+}
+
+header h1 img { 
+	margin-left: 60px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+header h1 {
+	background-image: url(../Fortune_Teller.jpg);
+	background-size: cover;
+}
+

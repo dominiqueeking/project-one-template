@@ -6,38 +6,56 @@ header
 		height: 100vh; 
 		display: grid;
 		grid-template-columns: 50% 50%;
+
 	}
 
 
-a { text-decoration: none; }
+a { 
+	color: #25408f;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif; 
+	font-size: 20px;
+	}
 
 
-a:hover { color: blue; }
+a:hover { color: white; }
 
 
-nav ul
-	{ list-style-type: none; 
+.homepage nav { 
+	justify-content: center;
+	align-items: center;
+	margin:  25vh auto;
+	 }
+.homepage nav ul
+	{
+		list-style-type: none; 
 		min-height: 100px;
-		min-width: 500px; }
 
+	}
 
-nav li
+.homepage nav li
 	{ 
-	margin-right: : 40px;
+	margin-right: :  px;
 	margin-top: 40px;
 	text-transform: uppercase;
+	text-align: left;
 	padding: ;
+
+
 }
 
 header h1 img { 
 	margin-left: 60px;
-	text-align: center;
 	display: inline-block;
+	margin-top: 20vh;
 }
 
 
 header h1 {
-	background-image: url(../Fortune_Teller.jpg);
-	background-size: cover;
+	background-image: url(../images/Fortune_Teller2.jpg);
+	background-size: fill;
+	display: block;
+	text-align: center;
+
 }
 

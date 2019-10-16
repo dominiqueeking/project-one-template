@@ -1,61 +1,88 @@
-body 
-	{ background-color: #D3AC5D; }
-
-header 
-	{ 
-		height: 100vh; 
-		display: grid;
-		grid-template-columns: 50% 50%;
-
-	}
+body {
+	background-color: #D3AC5D; }
 
 
-a { 
+.homepage header { 
+	height: 100vh; 
+	display: grid;
+	grid-template-columns: 50% 50%; }
+
+
+.homepage a { 
 	color: #25408f;
 	text-decoration: none;
-	font-family: 'Roboto Condensed', sans-serif; 
-	font-size: 20px;
-	}
+	font-family: 'roboto condensed', sans-serif; 
+	font-size: 20px; }
 
 
 a:hover { color: white; }
 
 
 .homepage nav { 
-	justify-content: center;
-	align-items: center;
-	margin:  25vh auto;
-	 }
-.homepage nav ul
-	{
-		list-style-type: none; 
-		min-height: 100px;
+	padding-left: 50px;
+	padding-top: 180px; }
 
-	}
 
-.homepage nav li
-	{ 
+.homepage nav ul {
+	list-style-type: none; 
+	min-height: 100px; }
+
+
+.homepage nav li { 
 	margin-right: :  px;
 	margin-top: 40px;
 	text-transform: uppercase;
-	text-align: left;
-	padding: ;
+	text-align: left; }
 
 
-}
-
-header h1 img { 
+.homepage header h1 img { 
 	margin-left: 60px;
 	display: inline-block;
-	margin-top: 20vh;
-}
+	margin-top: 30vh; }
 
 
-header h1 {
-	background-image: url(../images/Fortune_Teller2.jpg);
+.homepage header h1 {
+	background-image: url(../images/fortune_teller.jpg);
 	background-size: fill;
 	display: block;
+	text-align: center; }
+
+
+.subpage a { 
+	color: white;
+	text-decoration: none;
+	font-family: 'roboto condensed', sans-serif; 
+	font-size: 17px;
+	display: block;
+	width: 100px;
+	padding: 40px 25px;	}
+
+
+.subpage a:hover { 
+	color: #25408f; }
+
+
+.subpage nav ul {
+ 	text-transform: uppercase;
 	text-align: center;
+	text-transform: uppercase;
+	list-style: none;
+	padding: 0; }
+
+
+.subpage nav li { 
+	display: inline-block; } 
+
+
+.logo-image {
+	position: absolute;
+	margin-top:-25px;
+	margin-left: 150px }
+
+
+.subpage main {
+	float: left;
+	
 
 }
 

@@ -46,7 +46,7 @@ a:hover { color: white; }
 
 
 .homepage header h1 {
-	background-image: url(../images/fortune_teller.jpg);
+	background-image: url(./images/fortune_teller.jpg);
 	background-size: fill;
 	display: block;
 	text-align: center; }
@@ -158,7 +158,7 @@ h2 {
 
 
 .bg_image2 {
-	background-image: url(../images/crystal_ball.jpg);
+	background-image: url(./images/crystal_ball.jpg);
 	background-size: fill;
 	display: block;
 	text-align: center; }

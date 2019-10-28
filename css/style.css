@@ -1,7 +1,11 @@
 body {
-	background-color: #D3AC5D; }
+	background-color: #D3AC5D; 
+	font-family: 'CMUSerifRoman';
+	font-weight: normal;
+	font-style: normal;
+	}
 
-
+/*homepage tags*/
 .homepage header { 
 	height: 100vh; 
 	display: grid;
@@ -47,9 +51,20 @@ a:hover { color: white; }
 	display: block;
 	text-align: center; }
 
+/*subpage tags*/
+.subpage nav {
+	float: top;
+}
+
+.subpage p {
+   text-align: center; 
+   font-weight: bolder; 
+   font-size: 30px;}
+
 
 .subpage a { 
-	color: white;
+	color: black;
+	text-transform: uppercase;
 	text-decoration: none;
 	font-family: 'roboto condensed', sans-serif; 
 	font-size: 17px;
@@ -79,10 +94,96 @@ a:hover { color: white; }
 	margin-top:-25px;
 	margin-left: 150px }
 
+/*spread page tags*/
+.spreads ul{
+	text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
+	list-style: none;
+	padding: 500px 25px;	}
 
-.subpage main {
-	float: left;
+
+.spreads li { 
+	display: inline-block; }
+
+
+
+/* history page tags */
+.img2 {
+	text-align: center; }
+
+.grid { 
+	display: grid;
+	grid-template-columns: 50% 50%; }
+
+
+.history  { 
+	font-weight: bolder; 
+	font-size: 30px;
+	margin-left: 250px; }
+
+
+.morehistory  {  
+	font-size: 15px;
+	margin-left: 25px; 
+	margin-right: 250px;}
+
+
+/* meanings page tags*/
+.meanings  { 
+	font-weight: bolder; 
+	font-size: 30px;
+	margin-left: 300px; 
+	margin-top: 25px; }
+
+
+.moremeanings {  
 	
+	margin-left: 25px; 
+	margin-right: 250px;
+	margin-top: 45px; }
 
-}
+h2 { 
+	font-weight: bolder; 
+	font-size: 30px; }
+
+/*e-reading page tags*/
+.bg_image { 
+	height: 100vh; 
+	display: grid;
+	grid-template-columns: 50% 50%; }
+
+
+.bg_image2 {
+	background-image: url(../images/crystal_ball.jpg);
+	background-size: fill;
+	display: block;
+	text-align: center; }
+
+
+.ereading {
+	padding-top: 25px;
+	padding-left: 49px; 
+	padding-right: 35px;
+	}
+
+
+.bg_image h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bolder; 
+	padding-left: 55px;
+	
+	}
+
+
+.bg_image a {
+	 margin-left: -25px; }
+
+
+
+
+
+
+
 

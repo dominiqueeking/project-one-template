@@ -24,7 +24,7 @@ a:hover { color: white; }
 
 .homepage nav { 
 	padding-left: 50px;
-	padding-top: 180px; }
+	padding-top: 200px; }
 
 
 .homepage nav ul {
@@ -114,7 +114,9 @@ a:hover { color: white; }
 
 .grid { 
 	display: grid;
-	grid-template-columns: 50% 50%; }
+	grid-template-columns: 50% 50%; 
+	padding-right: 50px;
+	padding-left: 50px; }
 
 
 .history  { 
@@ -164,7 +166,8 @@ h2 {
 .ereading {
 	padding-top: 25px;
 	padding-left: 49px; 
-	padding-right: 35px;
+	padding-right: 150px;
+	padding-bottom: 50px;
 	}
 
 
@@ -172,9 +175,7 @@ h2 {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: bolder; 
-	padding-left: 55px;
-	
-	}
+	padding-left: 55px; }
 
 
 .bg_image a {
